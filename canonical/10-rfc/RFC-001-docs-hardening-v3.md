@@ -21,7 +21,7 @@ related_docs: []
 | **Author** | Founder |
 | **Created** | 2026-07-10 |
 | **Decided** | 2026-07-10 |
-| **Decision** | Accepted — dieksekusi sebagai Batch H1–H5 |
+| **Decision** | Accepted — dieksekusi sebagai Batch H1–H5 (**selesai 2026-07-10**) |
 | **Type** | RFC |
 | **References** | [RFC-INDEX](RFC-INDEX.md), [Q-990 Document Schema](../99-schema/990-document-schema.md), [SSOT-MANIFEST](../../MANIFEST.md) |
 
@@ -83,11 +83,22 @@ Sesuai tabel §3. Setelah H5: repo versi **3.0.0**, semua commit tervalidasi CI.
 
 ## 8. Decision
 
-**Accepted 2026-07-10.** Implementasi: Batch H1 (commit `07d0e39`) dst.
+**Accepted 2026-07-10.** Implementasi selesai penuh 2026-07-10:
+
+| Batch | Commit | Isi |
+|---|---|---|
+| H1 | `07d0e39` | 99-schema (Q-990..995) + MANIFEST + index |
+| H2 | `10207e5` | 10-rfc layer + G-094 workflows |
+| H3 | `e6d9046` | tools/validate_docs.py + CI + retrofit front-matter 53 dokumen |
+| H4 | `08c0fae` | G-095 capability map + G-096 RACI + G-097 risk/compliance + Q-994 expand |
+| H5 | (commit ini) | Validasi penuh + CHANGELOG 3.0.0 + README v3 |
+
 Struktur & aturan hasil program ini dikanonisasi di `99-schema/` dan `G-094`.
+Quality gate akhir: **PASSED** — 56 dokumen terdaftar & tervalidasi.
 
 ## Version history
 
 | Version | Date | Change |
 |---|---|---|
 | 3.0.0 | 2026-07-10 | RFC pertama — payung program hardening v3 |
+| 3.0.0 | 2026-07-10 | Batch H5: seluruh program H1–H5 selesai — tabel commit implementasi ditambahkan |

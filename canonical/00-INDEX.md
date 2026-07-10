@@ -1,7 +1,7 @@
 ---
 id: SSOT-00-INDEX
 title: Master Index
-version: 2.0.0
+version: 3.0.0
 status: approved
 owner: Founder
 reviewers: [Founder]
@@ -12,12 +12,12 @@ next_review: 2027-01-06
 parent: F-000
 related_docs: []
 ---
-# Canonical SSOT v2 — Master Index
+# Canonical SSOT v3 — Master Index
 
 | Field | Value |
 |---|---|
 | **ID** | SSOT-00-INDEX |
-| **Version** | 2.0.0 |
+| **Version** | 3.0.0 |
 | **Status** | Approved |
 | **Owner** | Founder / Product |
 | **Created** | 2026-07-10 |

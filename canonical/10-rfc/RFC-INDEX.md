@@ -36,7 +36,7 @@ related_docs: []
 | RFC | Judul | Status | Author | Decided via | Tanggal |
 |---|---|---|---|---|---|
 | [RFC-000](RFC-000-template.md) | Template RFC | Approved (template) | Founder | — | 2026-07-10 |
-| [RFC-001](RFC-001-docs-hardening-v3.md) | Docs Hardening Program v2 → v3 | Accepted | Founder | Implementasi Batch H1–H5 | 2026-07-10 |
+| [RFC-001](RFC-001-docs-hardening-v3.md) | Docs Hardening Program v2 → v3 | Implemented | Founder | Batch H1–H5 selesai; repo v3.0.0 | 2026-07-10 |
 
 ## Status RFC
 
