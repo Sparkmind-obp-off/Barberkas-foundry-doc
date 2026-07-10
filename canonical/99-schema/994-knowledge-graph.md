@@ -2,7 +2,7 @@
 id: Q-994
 title: Knowledge Graph
 version: 3.0.0
-status: draft
+status: approved
 owner: Founder
 reviewers: [Founder]
 classification: internal
@@ -10,7 +10,7 @@ type: index
 last_updated: 2026-07-10
 next_review: 2026-10-08
 parent: Q-990
-related_docs: []
+related_docs: [SSOT-MANIFEST, Q-991, G-095]
 ---
 # Q-994 — Knowledge Graph
 
@@ -52,13 +52,15 @@ Vision / Charter (F-000)
  Commercial (C-080 → C-081 / C-082)
         ↓
  Governance Gates (G-090 → G-091 / G-092 / G-093)
+        ↓
+ Operating Model (G-095 → G-096 / G-097)
 ```
 
 ## 2. Adjacency table (parent → children)
 
 | Parent | Children |
 |---|---|
-| F-000 Charter | F-001, F-002, B-010, G-090, SSOT-00-INDEX, SSOT-MANIFEST, MIG-MAP, MIG-AUDIT |
+| F-000 Charter | F-001, F-002, B-010, G-090, G-095, SSOT-00-INDEX, SSOT-MANIFEST, MIG-MAP, MIG-AUDIT |
 | F-002 Governance | F-003, F-004 |
 | F-003 Doc Policy | Q-990 |
 | Q-990 Document Schema | Q-991, Q-992, Q-993, Q-994, Q-995 |
@@ -72,6 +74,7 @@ Vision / Charter (F-000)
 | AI-070 AI Agents Policy | AI-071, AI-072 |
 | C-080 GTM Strategy | C-081, C-082 |
 | G-090 Roadmap | G-091, G-092, G-093 |
+| G-095 Capability Map | G-096, G-097 |
 
 ## 3. Cross-dependencies penting (non-hirarki)
 
@@ -84,6 +87,9 @@ Vision / Charter (F-000)
 | AI-070 AI Policy | S-052 Privacy | Data pelanggan dalam konteks AI |
 | C-081 Pricing Catalog | P-023 Packaging | Harga harus konsisten dengan entitlement |
 | E-041 Testing Gates | G-093 DoR/DoD | DoD memuat quality gate |
+| G-096 Responsibility Matrix | G-095 Capability Map | RACI dirender per capability C1.x–C5.x |
+| G-097 Risk & Compliance Matrix | S-051 Risk Register | Heatmap dirender dari register (S-051 = SSOT) |
+| G-097 Risk & Compliance Matrix | G-092 Enterprise Gate | Non-compliance K1–K5 memblokir gate |
 
 ## 4. Aturan graph
 
@@ -97,3 +103,4 @@ Vision / Charter (F-000)
 | Version | Date | Change |
 |---|---|---|
 | 3.0.0 | 2026-07-10 | Dokumen baru — Hardening Phase 1/4: knowledge graph penuh + aturan |
+| 3.0.0 | 2026-07-10 | Hardening Phase 4: node G-095/G-096/G-097 + edges; status Draft → Approved |

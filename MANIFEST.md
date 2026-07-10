@@ -96,6 +96,9 @@ related_docs: []
 | G-092 | [Enterprise Gate](canonical/09-governance/092-enterprise-gate.md) | procedure | Founder | Approved | G-090 |
 | G-093 | [DoR / DoD](canonical/09-governance/093-definition-of-ready-done.md) | procedure | Engineering | Approved | G-090 |
 | G-094 | [Docs Governance Workflows](canonical/09-governance/094-docs-governance-workflows.md) | procedure | Founder | Approved | F-002 |
+| G-095 | [Capability Map & Operating Model](canonical/09-governance/095-capability-map-operating-model.md) | strategy | Founder | Approved | F-000 |
+| G-096 | [Responsibility & Stakeholder Matrix](canonical/09-governance/096-responsibility-stakeholder-matrix.md) | register | Founder | Approved | G-095 |
+| G-097 | [Risk & Compliance Matrix](canonical/09-governance/097-risk-compliance-matrix.md) | register | Founder | Approved | G-095 |
 | RFC-INDEX | [RFC Register](canonical/10-rfc/RFC-INDEX.md) | index | Founder | Approved | F-002 |
 | RFC-000 | [Template RFC](canonical/10-rfc/RFC-000-template.md) | rfc | Founder | Approved | RFC-INDEX |
 | RFC-001 | [Docs Hardening v3](canonical/10-rfc/RFC-001-docs-hardening-v3.md) | rfc | Founder | Accepted | RFC-INDEX |
@@ -103,13 +106,12 @@ related_docs: []
 | Q-991 | [Metadata Schema](canonical/99-schema/991-metadata-schema.md) | standard | Founder | Approved | Q-990 |
 | Q-992 | [Taxonomy](canonical/99-schema/992-taxonomy.md) | standard | Founder | Approved | Q-990 |
 | Q-993 | [Lifecycle](canonical/99-schema/993-lifecycle.md) | standard | Founder | Approved | Q-990 |
-| Q-994 | [Knowledge Graph](canonical/99-schema/994-knowledge-graph.md) | index | Founder | Draft | Q-990 |
+| Q-994 | [Knowledge Graph](canonical/99-schema/994-knowledge-graph.md) | index | Founder | Approved | Q-990 |
 | Q-995 | [Numbering & ID](canonical/99-schema/995-numbering.md) | standard | Founder | Approved | Q-990 |
 | MIG-MAP | [Migration Map](migration/MIGRATION-MAP.md) | report | Founder | Frozen | F-000 |
 | MIG-AUDIT | [Audit Report v2](migration/AUDIT-REPORT-V2.md) | report | Founder | Frozen | F-000 |
 
-> Dokumen baru dari Hardening Phase berikutnya (matrices, tooling) akan
-> ditambahkan ke registry ini pada batch masing-masing.
+> Registry lengkap per Hardening Phase 4+7 (Batch H4): 56 dokumen terdaftar.
 
 ## 3. Aturan manifest
 
@@ -126,3 +128,4 @@ related_docs: []
 |---|---|---|
 | 3.0.0 | 2026-07-10 | Dokumen baru — Hardening Phase 1: registry penuh 45 dokumen + 15 folder |
 | 3.0.0 | 2026-07-10 | Hardening Phase 3: tools/ + CI aktif; retrofit front-matter YAML 53 dokumen |
+| 3.0.0 | 2026-07-10 | Hardening Phase 4+7: registrasi G-095/G-096/G-097; Q-994 Draft → Approved |

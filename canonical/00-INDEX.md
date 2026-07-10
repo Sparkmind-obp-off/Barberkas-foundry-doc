@@ -99,6 +99,9 @@ related_docs: []
 | G-092 | [Enterprise Gate](09-governance/092-enterprise-gate.md) | Syarat memakai label "enterprise" |
 | G-093 | [Definition of Ready/Done](09-governance/093-definition-of-ready-done.md) | DoR & DoD backlog |
 | G-094 | [Docs Governance Workflows](09-governance/094-docs-governance-workflows.md) | Board, review/approval, RFC, ADR, deprecation, exception |
+| G-095 | [Capability Map & Operating Model](09-governance/095-capability-map-operating-model.md) | Peta 17 capability (5 domain) + cara organisasi beroperasi |
+| G-096 | [Responsibility & Stakeholder Matrix](09-governance/096-responsibility-stakeholder-matrix.md) | RACI per capability + peta stakeholder + eskalasi |
+| G-097 | [Risk & Compliance Matrix](09-governance/097-risk-compliance-matrix.md) | Heatmap risiko (render S-051) + 7 kewajiban compliance |
 
 ### 10 — RFC (usulan sebelum keputusan)
 | ID | Dokumen | Jawaban untuk |
