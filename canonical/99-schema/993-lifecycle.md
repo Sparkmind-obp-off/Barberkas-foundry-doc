@@ -10,7 +10,7 @@
 | **Updated** | 2026-07-10 |
 | **Classification** | Internal |
 | **Type** | Standard |
-| **References** | [Q-991 Metadata Schema](991-metadata-schema.md), [F-002 Governance](../00-foundation/002-governance.md), G-094 Docs Governance Workflows *(Batch H2)* |
+| **References** | [Q-991 Metadata Schema](991-metadata-schema.md), [F-002 Governance](../00-foundation/002-governance.md), [G-094 Docs Governance Workflows](../09-governance/094-docs-governance-workflows.md) |
 
 > SOP resmi perpindahan status dokumen. Status hidup di front-matter (`status:`)
 > dan divalidasi CI.

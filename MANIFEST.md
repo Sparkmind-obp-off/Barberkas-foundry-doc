@@ -80,6 +80,10 @@
 | G-091 | [Production Gate](canonical/09-governance/091-production-gate.md) | procedure | Founder | Approved | G-090 |
 | G-092 | [Enterprise Gate](canonical/09-governance/092-enterprise-gate.md) | procedure | Founder | Approved | G-090 |
 | G-093 | [DoR / DoD](canonical/09-governance/093-definition-of-ready-done.md) | procedure | Engineering | Approved | G-090 |
+| G-094 | [Docs Governance Workflows](canonical/09-governance/094-docs-governance-workflows.md) | procedure | Founder | Approved | F-002 |
+| RFC-INDEX | [RFC Register](canonical/10-rfc/RFC-INDEX.md) | index | Founder | Approved | F-002 |
+| RFC-000 | [Template RFC](canonical/10-rfc/RFC-000-template.md) | rfc | Founder | Approved | RFC-INDEX |
+| RFC-001 | [Docs Hardening v3](canonical/10-rfc/RFC-001-docs-hardening-v3.md) | rfc | Founder | Accepted | RFC-INDEX |
 | Q-990 | [Document Schema](canonical/99-schema/990-document-schema.md) | standard | Founder | Approved | F-003 |
 | Q-991 | [Metadata Schema](canonical/99-schema/991-metadata-schema.md) | standard | Founder | Approved | Q-990 |
 | Q-992 | [Taxonomy](canonical/99-schema/992-taxonomy.md) | standard | Founder | Approved | Q-990 |
@@ -89,7 +93,7 @@
 | MIG-MAP | [Migration Map](migration/MIGRATION-MAP.md) | report | Founder | Frozen | F-000 |
 | MIG-AUDIT | [Audit Report v2](migration/AUDIT-REPORT-V2.md) | report | Founder | Frozen | F-000 |
 
-> Dokumen baru dari Hardening Phase 2+ (RFC layer, workflows, matrices) akan
+> Dokumen baru dari Hardening Phase berikutnya (matrices, tooling) akan
 > ditambahkan ke registry ini pada batch masing-masing.
 
 ## 3. Aturan manifest

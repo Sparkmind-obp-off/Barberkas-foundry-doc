@@ -84,6 +84,14 @@
 | G-091 | [Production Gate](09-governance/091-production-gate.md) | Syarat launch publik berbayar |
 | G-092 | [Enterprise Gate](09-governance/092-enterprise-gate.md) | Syarat memakai label "enterprise" |
 | G-093 | [Definition of Ready/Done](09-governance/093-definition-of-ready-done.md) | DoR & DoD backlog |
+| G-094 | [Docs Governance Workflows](09-governance/094-docs-governance-workflows.md) | Board, review/approval, RFC, ADR, deprecation, exception |
+
+### 10 — RFC (usulan sebelum keputusan)
+| ID | Dokumen | Jawaban untuk |
+|---|---|---|
+| RFC-INDEX | [RFC Register](10-rfc/RFC-INDEX.md) | Daftar seluruh usulan + statusnya |
+| RFC-000 | [Template RFC](10-rfc/RFC-000-template.md) | Format standar RFC baru |
+| RFC-001 | [Docs Hardening v3](10-rfc/RFC-001-docs-hardening-v3.md) | Payung program hardening v2 → v3 |
 
 ### 99 — Schema (Docs-as-Code)
 | ID | Dokumen | Jawaban untuk |
