@@ -85,6 +85,21 @@
 | G-092 | [Enterprise Gate](09-governance/092-enterprise-gate.md) | Syarat memakai label "enterprise" |
 | G-093 | [Definition of Ready/Done](09-governance/093-definition-of-ready-done.md) | DoR & DoD backlog |
 
+### 99 — Schema (Docs-as-Code)
+| ID | Dokumen | Jawaban untuk |
+|---|---|---|
+| Q-990 | [Document Schema](99-schema/990-document-schema.md) | Struktur wajib setiap dokumen canonical |
+| Q-991 | [Metadata Schema](99-schema/991-metadata-schema.md) | Front-matter YAML wajib & validasinya |
+| Q-992 | [Taxonomy](99-schema/992-taxonomy.md) | 12 tipe dokumen + aturan otoritas |
+| Q-993 | [Lifecycle](99-schema/993-lifecycle.md) | State machine Draft→Review→Approved→Deprecated→Archived |
+| Q-994 | [Knowledge Graph](99-schema/994-knowledge-graph.md) | Parent/child/dependency antar dokumen |
+| Q-995 | [Numbering & ID](99-schema/995-numbering.md) | Konvensi penomoran & ID permanen |
+
+### Root
+| Dokumen | Jawaban untuk |
+|---|---|
+| [MANIFEST](../MANIFEST.md) | Registry resmi seluruh folder & dokumen (ownership, maturity, status) |
+
 ### Migration
 | Dokumen | Jawaban untuk |
 |---|---|
