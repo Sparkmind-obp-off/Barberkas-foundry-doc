@@ -1,3 +1,17 @@
+---
+id: G-092
+title: Enterprise Gate
+version: 2.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: procedure
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: G-090
+related_docs: []
+---
 # G-092 — Enterprise Gate
 
 | Field | Value |

@@ -1,3 +1,17 @@
+---
+id: A-030
+title: System Overview
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: specification
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: P-020
+related_docs: []
+---
 # A-030 — System Overview
 
 | Field | Value |

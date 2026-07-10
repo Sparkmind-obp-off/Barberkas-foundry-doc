@@ -1,3 +1,17 @@
+---
+id: S-050
+title: Security Baseline
+version: 2.0.0
+status: approved
+owner: Security
+reviewers: [Founder]
+classification: internal
+type: policy
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: A-030
+related_docs: []
+---
 # S-050 — Security Baseline
 
 | Field | Value |

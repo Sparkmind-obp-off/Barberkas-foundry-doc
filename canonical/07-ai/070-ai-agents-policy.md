@@ -1,3 +1,17 @@
+---
+id: AI-070
+title: AI Agents Policy
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: policy
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: A-030
+related_docs: []
+---
 # AI-070 — AI Agents Policy
 
 | Field | Value |

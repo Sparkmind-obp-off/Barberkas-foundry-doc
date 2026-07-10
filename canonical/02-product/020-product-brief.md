@@ -1,3 +1,17 @@
+---
+id: P-020
+title: Product Brief
+version: 2.0.0
+status: approved
+owner: Product
+reviewers: [Founder]
+classification: internal
+type: specification
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: B-010
+related_docs: []
+---
 # P-020 — Product Brief
 
 | Field | Value |

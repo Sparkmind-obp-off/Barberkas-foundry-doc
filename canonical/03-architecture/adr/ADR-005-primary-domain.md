@@ -1,3 +1,17 @@
+---
+id: ADR-005
+title: Satu domain utama + canonical URL + redirect
+version: 2.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: adr
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: ADR-INDEX
+related_docs: []
+---
 # ADR-005 — Satu domain utama + canonical URL + redirect
 
 | Field | Value |

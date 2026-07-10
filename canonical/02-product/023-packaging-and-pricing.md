@@ -1,3 +1,17 @@
+---
+id: P-023
+title: Packaging & Entitlements
+version: 2.0.0
+status: approved
+owner: Commercial
+reviewers: [Founder]
+classification: internal
+type: specification
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: P-020
+related_docs: []
+---
 # P-023 — Packaging & Entitlements
 
 | Field | Value |

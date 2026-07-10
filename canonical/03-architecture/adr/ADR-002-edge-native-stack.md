@@ -1,3 +1,17 @@
+---
+id: ADR-002
+title: Stack edge-native Cloudflare (zero VPS)
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: adr
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: ADR-INDEX
+related_docs: []
+---
 # ADR-002 — Stack edge-native Cloudflare (zero VPS)
 
 | Field | Value |

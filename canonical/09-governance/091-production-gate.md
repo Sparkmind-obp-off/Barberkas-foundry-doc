@@ -1,3 +1,17 @@
+---
+id: G-091
+title: Production Gate
+version: 2.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: procedure
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: G-090
+related_docs: []
+---
 # G-091 — Production Gate
 
 | Field | Value |

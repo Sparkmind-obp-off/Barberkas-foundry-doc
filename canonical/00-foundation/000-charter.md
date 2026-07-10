@@ -1,3 +1,17 @@
+---
+id: F-000
+title: Charter
+version: 2.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: strategy
+last_updated: 2026-07-10
+next_review: 2027-01-06
+parent: null
+related_docs: []
+---
 # F-000 — Charter
 
 | Field | Value |

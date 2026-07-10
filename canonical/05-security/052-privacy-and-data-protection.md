@@ -1,3 +1,17 @@
+---
+id: S-052
+title: Privacy & Data Protection
+version: 2.0.0
+status: approved
+owner: Security
+reviewers: [Founder]
+classification: internal
+type: policy
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: S-050
+related_docs: []
+---
 # S-052 — Privacy & Data Protection
 
 | Field | Value |

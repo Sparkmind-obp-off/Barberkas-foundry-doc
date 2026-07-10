@@ -1,3 +1,17 @@
+---
+id: Q-995
+title: Numbering & ID Convention
+version: 3.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: standard
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: Q-990
+related_docs: []
+---
 # Q-995 — Numbering & ID Convention
 
 | Field | Value |

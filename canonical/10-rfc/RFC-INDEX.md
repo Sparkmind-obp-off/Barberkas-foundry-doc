@@ -1,3 +1,17 @@
+---
+id: RFC-INDEX
+title: Request for Comments Register
+version: 3.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: index
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: F-002
+related_docs: []
+---
 # RFC-INDEX — Request for Comments Register
 
 | Field | Value |

@@ -1,0 +1,30 @@
+name: Docs Quality Gate
+
+# Quality gate otomatis (Hardening Phase 3, RFC-001 / Q-991 §3):
+# setiap push & PR ke main divalidasi — front-matter, ID unik, manifest
+# (orphan/dangling), broken link, heading, parent/related integrity.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-docs:
+    name: validate_docs.py
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run quality gate
+        run: python3 tools/validate_docs.py --root .

@@ -1,3 +1,17 @@
+---
+id: E-042
+title: API Standards
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: standard
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: E-040
+related_docs: []
+---
 # E-042 — API Standards
 
 | Field | Value |

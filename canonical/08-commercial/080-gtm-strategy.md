@@ -1,3 +1,17 @@
+---
+id: C-080
+title: GTM Strategy
+version: 2.0.0
+status: approved
+owner: Commercial
+reviewers: [Founder]
+classification: internal
+type: strategy
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: P-020
+related_docs: []
+---
 # C-080 — GTM Strategy
 
 | Field | Value |

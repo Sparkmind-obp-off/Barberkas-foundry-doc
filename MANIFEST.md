@@ -1,3 +1,17 @@
+---
+id: SSOT-MANIFEST
+title: Canonical SSOT Registry
+version: 3.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: index
+last_updated: 2026-07-10
+next_review: 2027-01-06
+parent: F-000
+related_docs: []
+---
 # MANIFEST — Canonical SSOT Registry
 
 | Field | Value |
@@ -33,7 +47,8 @@
 | `canonical/99-schema/` | Docs schema, taxonomy, lifecycle, graph | Founder | Stable | 00 |
 | `migration/` | Audit & migration reports (immutable) | Founder | Frozen | — |
 | `archive/` | Legacy read-only | Founder | Frozen | — |
-| `tools/` | Validator & quality gates | Engineering | Incubating | 99 |
+| `tools/` | Validator & quality gates ([tools/README](tools/README.md)) | Engineering | Stable | 99 |
+| `tools/ci/` | CI workflow quality gate ([docs-quality.yml](tools/ci/docs-quality.yml)) — aktifkan dengan menyalin ke `.github/workflows/` | Engineering | Stable | tools |
 
 ## 2. Registry dokumen
 
@@ -100,11 +115,14 @@
 
 1. Setiap file `.md` baru di `canonical/` wajib terdaftar di §2 pada commit yang sama.
 2. Perubahan status lifecycle wajib tercermin di kolom Status.
-3. Validator ([tools/](canonical/99-schema/990-document-schema.md)) memverifikasi:
+3. Validator ([tools/validate_docs.py](tools/validate_docs.py)) memverifikasi:
    file tanpa entri manifest = **orphan → error**; entri tanpa file = **dangling → error**.
+4. Quality gate berjalan otomatis di CI ([docs-quality.yml](tools/ci/docs-quality.yml),
+   aktifkan via salin ke `.github/workflows/`) pada setiap push & PR ke `main`.
 
 ## Version history
 
 | Version | Date | Change |
 |---|---|---|
 | 3.0.0 | 2026-07-10 | Dokumen baru — Hardening Phase 1: registry penuh 45 dokumen + 15 folder |
+| 3.0.0 | 2026-07-10 | Hardening Phase 3: tools/ + CI aktif; retrofit front-matter YAML 53 dokumen |

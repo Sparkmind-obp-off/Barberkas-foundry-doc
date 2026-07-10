@@ -1,3 +1,17 @@
+---
+id: C-081
+title: Pricing Catalog
+version: 2.0.0
+status: approved
+owner: Commercial
+reviewers: [Founder]
+classification: internal
+type: specification
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: C-080
+related_docs: []
+---
 # C-081 — Pricing Catalog
 
 | Field | Value |

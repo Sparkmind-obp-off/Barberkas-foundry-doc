@@ -1,3 +1,17 @@
+---
+id: P-022
+title: Feature Matrix (Truth-Lock)
+version: 2.0.0
+status: approved
+owner: Product
+reviewers: [Founder]
+classification: internal
+type: register
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: P-020
+related_docs: []
+---
 # P-022 — Feature Matrix (Truth-Lock)
 
 | Field | Value |

@@ -1,3 +1,17 @@
+---
+id: B-011
+title: Positioning & Messaging
+version: 2.0.0
+status: approved
+owner: Commercial
+reviewers: [Founder]
+classification: internal
+type: guideline
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: B-010
+related_docs: []
+---
 # B-011 — Positioning & Messaging
 
 | Field | Value |

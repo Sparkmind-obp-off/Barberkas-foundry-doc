@@ -1,3 +1,17 @@
+---
+id: F-001
+title: Glossary (Terminologi Resmi Tunggal)
+version: 2.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: standard
+last_updated: 2026-07-10
+next_review: 2027-01-06
+parent: F-000
+related_docs: []
+---
 # F-001 — Glossary (Terminologi Resmi Tunggal)
 
 | Field | Value |

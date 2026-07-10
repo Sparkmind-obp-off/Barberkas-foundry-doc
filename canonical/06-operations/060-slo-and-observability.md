@@ -1,3 +1,17 @@
+---
+id: O-060
+title: SLO & Observability
+version: 2.0.0
+status: approved
+owner: Operations
+reviewers: [Founder]
+classification: internal
+type: standard
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: E-040
+related_docs: []
+---
 # O-060 — SLO & Observability
 
 | Field | Value |

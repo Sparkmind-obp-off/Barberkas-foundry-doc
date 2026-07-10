@@ -1,3 +1,17 @@
+---
+id: G-093
+title: Definition of Ready / Definition of Done
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: procedure
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: G-090
+related_docs: []
+---
 # G-093 — Definition of Ready / Definition of Done
 
 | Field | Value |

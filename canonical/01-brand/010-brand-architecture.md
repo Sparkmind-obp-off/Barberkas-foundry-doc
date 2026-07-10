@@ -1,3 +1,17 @@
+---
+id: B-010
+title: Brand Architecture
+version: 2.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: strategy
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: F-000
+related_docs: []
+---
 # B-010 — Brand Architecture
 
 | Field | Value |

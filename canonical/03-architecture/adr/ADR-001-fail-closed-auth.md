@@ -1,3 +1,17 @@
+---
+id: ADR-001
+title: Auth production wajib fail-closed
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: adr
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: ADR-INDEX
+related_docs: []
+---
 # ADR-001 — Auth production wajib fail-closed
 
 | Field | Value |

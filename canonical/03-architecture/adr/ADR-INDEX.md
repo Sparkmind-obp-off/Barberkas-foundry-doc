@@ -1,3 +1,17 @@
+---
+id: ADR-INDEX
+title: Architecture Decision Records (Register)
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: index
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: A-030
+related_docs: []
+---
 # A-ADR — Architecture Decision Records (Register)
 
 | Field | Value |

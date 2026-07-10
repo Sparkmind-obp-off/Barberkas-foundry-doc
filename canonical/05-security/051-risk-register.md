@@ -1,3 +1,17 @@
+---
+id: S-051
+title: Risk Register
+version: 2.0.0
+status: approved
+owner: Security
+reviewers: [Founder]
+classification: internal
+type: register
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: S-050
+related_docs: []
+---
 # S-051 — Risk Register
 
 | Field | Value |

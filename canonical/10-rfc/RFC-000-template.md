@@ -1,3 +1,17 @@
+---
+id: RFC-000
+title: Template RFC
+version: 3.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: rfc
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: RFC-INDEX
+related_docs: []
+---
 # RFC-000 — Template RFC
 
 | Field | Value |

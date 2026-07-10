@@ -1,3 +1,17 @@
+---
+id: ADR-004
+title: Pemetaan tenant WA dari device penerima, bukan payload pengirim
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: adr
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: ADR-INDEX
+related_docs: []
+---
 # ADR-004 — Pemetaan tenant WA dari device penerima, bukan payload pengirim
 
 | Field | Value |

@@ -1,3 +1,17 @@
+---
+id: AI-072
+title: Skill Authoring Standard
+version: 2.0.0
+status: approved
+owner: Engineering
+reviewers: [Founder]
+classification: internal
+type: standard
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: AI-070
+related_docs: []
+---
 # AI-072 — Skill Authoring Standard
 
 | Field | Value |

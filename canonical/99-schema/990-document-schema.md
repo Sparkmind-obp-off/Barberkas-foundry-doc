@@ -1,3 +1,17 @@
+---
+id: Q-990
+title: Document Schema
+version: 3.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: standard
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: F-003
+related_docs: []
+---
 # Q-990 — Document Schema
 
 | Field | Value |

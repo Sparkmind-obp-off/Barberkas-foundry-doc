@@ -1,3 +1,17 @@
+---
+id: MIG-AUDIT
+title: Audit & Sintesis yang Menghasilkan Canonical SSOT v2
+version: 2.0.0
+status: approved
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: report
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: F-000
+related_docs: []
+---
 # AUDIT-REPORT-V2 — Audit & Sintesis yang Menghasilkan Canonical SSOT v2
 
 | Field | Value |

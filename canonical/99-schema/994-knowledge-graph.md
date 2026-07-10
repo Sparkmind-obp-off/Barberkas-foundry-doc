@@ -1,3 +1,17 @@
+---
+id: Q-994
+title: Knowledge Graph
+version: 3.0.0
+status: draft
+owner: Founder
+reviewers: [Founder]
+classification: internal
+type: index
+last_updated: 2026-07-10
+next_review: 2026-10-08
+parent: Q-990
+related_docs: []
+---
 # Q-994 — Knowledge Graph
 
 | Field | Value |
