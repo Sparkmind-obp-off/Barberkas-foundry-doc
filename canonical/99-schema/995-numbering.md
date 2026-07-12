@@ -1,13 +1,13 @@
 ---
 id: Q-995
 title: Numbering & ID Convention
-version: 3.0.0
+version: 3.1.0
 status: approved
 owner: Founder
 reviewers: [Founder]
 classification: internal
 type: standard
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 next_review: 2026-10-08
 parent: Q-990
 related_docs: []
@@ -17,11 +17,11 @@ related_docs: []
 | Field | Value |
 |---|---|
 | **ID** | Q-995 |
-| **Version** | 3.0.0 |
+| **Version** | 3.1.0 |
 | **Status** | Approved |
 | **Owner** | Founder / Product |
 | **Created** | 2026-07-10 |
-| **Updated** | 2026-07-10 |
+| **Updated** | 2026-07-11 |
 | **Classification** | Internal |
 | **Type** | Standard |
 | **References** | [Q-990 Document Schema](990-document-schema.md), [Q-991 Metadata Schema](991-metadata-schema.md) |
@@ -47,6 +47,16 @@ related_docs: []
 | `10-rfc/` | `RFC-` | 001+ (sekuensial) | RFC-001 |
 | `99-schema/` | `Q-` | 990–999 | Q-991 Metadata Schema |
 
+### 1.1 Layer `programs/` (RFC-002 — Program × Batch)
+
+| Folder | Prefix ID | Rentang nomor | Contoh |
+|---|---|---|---|
+| `programs/` (index) | `PROG-INDEX`, `BATCH-INDEX` | — (ID khusus) | PROG-INDEX |
+| `programs/P<nn>-<slug>/` (charter) | `P<nn>-` | 000 (charter per program) | P01-000 Program Charter |
+| `programs/P00-foundation/` | `BF-` | 0001+ (4 digit, sekuensial) | BF-0010 Canonical Rules |
+| `programs/P01-enterprise-architecture/` | `EA-` | 0001+ (4 digit, sekuensial) | EA-0012 Architecture Principles |
+| Batch berikutnya | didaftarkan di sini **sebelum batch dimulai** ([BATCH-INDEX](../../programs/BATCH-INDEX.md)) | 0001+ | GOV-, CAN-, KG-, … |
+
 ## 2. Aturan
 
 1. **Nama file** = `<nomor>-<slug-kebab-case>.md`; nomor = 3 digit sesuai rentang layer.
@@ -69,3 +79,4 @@ related_docs: []
 | Version | Date | Change |
 |---|---|---|
 | 3.0.0 | 2026-07-10 | Dokumen baru — Hardening Phase 1: konvensi penomoran & ID permanen |
+| 3.1.0 | 2026-07-11 | §1.1 layer `programs/`: prefix PROG-/BATCH-INDEX, P<nn>-, BF-, EA- (RFC-002, Batch 00–01) |

@@ -7,12 +7,12 @@
 
 | Field | Value |
 |---|---|
-| **Version** | 3.0.0 — "Hardening v3" ([RFC-001](canonical/10-rfc/RFC-001-docs-hardening-v3.md)) |
+| **Version** | 3.1.0 — "Program × Batch: Batch 00–01" ([RFC-002](canonical/10-rfc/RFC-002-program-batch-operating-model.md)) |
 | **Status** | Approved |
 | **Owner** | Founder / Product (SparkMind) |
 | **Created** | 2026-07-10 |
 | **Supersedes** | v2.0.0 baseline; `archive/canonical-v1/`, `archive/ssot/`, `archive/barberkas-aaas-bundle/` |
-| **Quality gate** | ✅ PASSED — 56 dokumen terdaftar & tervalidasi ([tools/validate_docs.py](tools/validate_docs.py)) |
+| **Quality gate** | ✅ PASSED — 83 dokumen terdaftar & tervalidasi ([tools/validate_docs.py](tools/validate_docs.py)) |
 | **Repo produk** | https://github.com/Sparkmind-obp-off/Barberkas-foundry |
 | **Production** | https://barberkas-aaas.pages.dev · https://barberkas-foundry.biz.id |
 
@@ -22,8 +22,9 @@
 
 1. **[canonical/00-INDEX.md](canonical/00-INDEX.md)** — peta lengkap seluruh dokumen canonical.
 2. **[MANIFEST.md](MANIFEST.md)** — registry resmi: ownership, tipe, status, parent tiap dokumen.
-3. **[canonical/99-schema/994-knowledge-graph.md](canonical/99-schema/994-knowledge-graph.md)** — peta hubungan antar dokumen (value chain, adjacency, dependency).
-4. **[migration/MIGRATION-MAP.md](migration/MIGRATION-MAP.md)** — pemetaan dokumen legacy → v2/v3.
+3. **[programs/PROGRAM-INDEX.md](programs/PROGRAM-INDEX.md)** — 21 program strategis Foundry (P00–P20) + **[BATCH-INDEX](programs/BATCH-INDEX.md)** roadmap 15 batch.
+4. **[canonical/99-schema/994-knowledge-graph.md](canonical/99-schema/994-knowledge-graph.md)** — peta hubungan antar dokumen (value chain, adjacency, dependency).
+5. **[migration/MIGRATION-MAP.md](migration/MIGRATION-MAP.md)** — pemetaan dokumen legacy → v2/v3.
 
 ## Struktur repository
 
@@ -44,6 +45,12 @@ canonical/
 ├── 10-rfc/                  # RFC layer — usulan sebelum keputusan
 └── 99-schema/               # Docs-as-Code: document schema, metadata, taxonomy,
                              #   lifecycle, knowledge graph, numbering
+programs/                    # Layer organisasi Foundry (RFC-002): 21 program × 15 batch
+├── PROGRAM-INDEX.md         # Registry 21 program strategis P00–P20
+├── BATCH-INDEX.md           # Roadmap 15 batch (spiral)
+├── P00-foundation/          # Batch 00 ✅ — identitas: vision, constitution, principles (BF-0001..0010)
+└── P01-enterprise-architecture/ # Batch 01 ✅ — blueprint: context, capability, layer,
+                             #   integration, event, data flow, dependency, principles (EA-0001..0012)
 migration/                   # Audit report v2 + migration map (frozen)
 archive/                     # SELURUH dokumen legacy (read-only, referensi)
 tools/                       # validate_docs.py (quality gate) + tools/ci/ (CI workflow)
@@ -51,13 +58,25 @@ MANIFEST.md                  # Registry resmi seluruh dokumen
 CHANGELOG.md                 # Riwayat versi repo
 ```
 
+## Program × Batch Operating Model (baru di v3.1 — RFC-002)
+
+Layer `programs/` mengorganisasi evolusi Foundry sebagai **21 program strategis** (kapabilitas
+permanen, P00–P20) yang diselesaikan lewat **15 batch** eksekusi berurutan — roadmap spiral:
+Foundation (00–05) → Intelligence (06–10) → Legacy (11–14) → kembali ke 00.
+
+| Status | Batch | Program |
+|---|---|---|
+| ✅ Canonical | 00 | [P00 Foundation](programs/P00-foundation/P00-000-program-charter.md) — 11 dokumen identitas |
+| ✅ Canonical | 01 | [P01 Enterprise Architecture](programs/P01-enterprise-architecture/P01-000-program-charter.md) — 13 dokumen blueprint |
+| ⏭️ Next | 02 | P02 Governance — charter, decision model, audit (GOV-…) |
+
 ## Docs-as-Code (baru di v3)
 
 1. **Metadata wajib** — setiap dokumen canonical punya YAML front-matter
    ([Q-991](canonical/99-schema/991-metadata-schema.md)): id, title, version, status,
    owner, reviewers, classification, type, last_updated, next_review, parent, related_docs.
 2. **Registry wajib** — dokumen yang tidak terdaftar di [MANIFEST](MANIFEST.md) = orphan
-   → **gagal quality gate**.
+   → **gagal quality gate**. Berlaku untuk `canonical/`, `migration/`, dan `programs/`.
 3. **Quality gate** — jalankan lokal:
    ```bash
    python3 tools/validate_docs.py
@@ -102,4 +121,5 @@ CHANGELOG.md                 # Riwayat versi repo
 
 ## Changelog
 
-Lihat [CHANGELOG.md](CHANGELOG.md) — v3.0.0 mencakup Hardening Phase H1–H5 penuh.
+Lihat [CHANGELOG.md](CHANGELOG.md) — v3.1.0 mencakup Batch 00–01 layer `programs/` (RFC-002);
+v3.0.0 mencakup Hardening Phase H1–H5 penuh.

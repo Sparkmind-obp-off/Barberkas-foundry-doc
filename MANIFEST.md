@@ -1,13 +1,13 @@
 ---
 id: SSOT-MANIFEST
 title: Canonical SSOT Registry
-version: 3.0.0
+version: 3.1.0
 status: approved
 owner: Founder
 reviewers: [Founder]
 classification: internal
 type: index
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 next_review: 2027-01-06
 parent: F-000
 related_docs: []
@@ -17,11 +17,11 @@ related_docs: []
 | Field | Value |
 |---|---|
 | **ID** | SSOT-MANIFEST |
-| **Version** | 3.0.0 |
+| **Version** | 3.1.0 |
 | **Status** | Approved |
 | **Owner** | Founder / Product |
 | **Created** | 2026-07-10 |
-| **Updated** | 2026-07-10 |
+| **Updated** | 2026-07-11 |
 | **Classification** | Internal |
 | **Type** | Index |
 | **References** | [00-INDEX](canonical/00-INDEX.md), [Q-990 Document Schema](canonical/99-schema/990-document-schema.md), [Q-994 Knowledge Graph](canonical/99-schema/994-knowledge-graph.md) |
@@ -45,6 +45,7 @@ related_docs: []
 | `canonical/09-governance/` | Roadmap, gates, DoR/DoD, workflows | Founder | Stable | 00 |
 | `canonical/10-rfc/` | Usulan sebelum keputusan (RFC) | Founder | Incubating | 00 |
 | `canonical/99-schema/` | Docs schema, taxonomy, lifecycle, graph | Founder | Stable | 00 |
+| `programs/` | Layer organisasi Foundry: 21 program × batch ([RFC-002](canonical/10-rfc/RFC-002-program-batch-operating-model.md)) | Founder | Incubating | 00, 99 |
 | `migration/` | Audit & migration reports (immutable) | Founder | Frozen | — |
 | `archive/` | Legacy read-only | Founder | Frozen | — |
 | `tools/` | Validator & quality gates ([tools/README](tools/README.md)) | Engineering | Stable | 99 |
@@ -102,6 +103,7 @@ related_docs: []
 | RFC-INDEX | [RFC Register](canonical/10-rfc/RFC-INDEX.md) | index | Founder | Approved | F-002 |
 | RFC-000 | [Template RFC](canonical/10-rfc/RFC-000-template.md) | rfc | Founder | Approved | RFC-INDEX |
 | RFC-001 | [Docs Hardening v3](canonical/10-rfc/RFC-001-docs-hardening-v3.md) | rfc | Founder | Accepted | RFC-INDEX |
+| RFC-002 | [Program × Batch Operating Model](canonical/10-rfc/RFC-002-program-batch-operating-model.md) | rfc | Founder | Approved | RFC-INDEX |
 | Q-990 | [Document Schema](canonical/99-schema/990-document-schema.md) | standard | Founder | Approved | F-003 |
 | Q-991 | [Metadata Schema](canonical/99-schema/991-metadata-schema.md) | standard | Founder | Approved | Q-990 |
 | Q-992 | [Taxonomy](canonical/99-schema/992-taxonomy.md) | standard | Founder | Approved | Q-990 |
@@ -110,12 +112,39 @@ related_docs: []
 | Q-995 | [Numbering & ID](canonical/99-schema/995-numbering.md) | standard | Founder | Approved | Q-990 |
 | MIG-MAP | [Migration Map](migration/MIGRATION-MAP.md) | report | Founder | Frozen | F-000 |
 | MIG-AUDIT | [Audit Report v2](migration/AUDIT-REPORT-V2.md) | report | Founder | Frozen | F-000 |
+| PROG-INDEX | [Program Registry](programs/PROGRAM-INDEX.md) | index | Founder | Approved | F-000 |
+| BATCH-INDEX | [Batch Roadmap](programs/BATCH-INDEX.md) | index | Founder | Approved | PROG-INDEX |
+| P00-000 | [Program Charter — Foundation](programs/P00-foundation/P00-000-program-charter.md) | strategy | Founder | Approved | PROG-INDEX |
+| BF-0001 | [Vision](programs/P00-foundation/BF-0001-vision.md) | strategy | Founder | Approved | P00-000 |
+| BF-0002 | [Mission](programs/P00-foundation/BF-0002-mission.md) | strategy | Founder | Approved | P00-000 |
+| BF-0003 | [North Star](programs/P00-foundation/BF-0003-north-star.md) | strategy | Founder | Approved | P00-000 |
+| BF-0004 | [Constitution](programs/P00-foundation/BF-0004-constitution.md) | policy | Founder | Approved | P00-000 |
+| BF-0005 | [Manifest](programs/P00-foundation/BF-0005-manifest.md) | strategy | Founder | Approved | P00-000 |
+| BF-0006 | [Principles](programs/P00-foundation/BF-0006-principles.md) | standard | Founder | Approved | P00-000 |
+| BF-0007 | [Values](programs/P00-foundation/BF-0007-values.md) | standard | Founder | Approved | P00-000 |
+| BF-0008 | [Terminology](programs/P00-foundation/BF-0008-terminology.md) | standard | Founder | Approved | P00-000 |
+| BF-0009 | [Foundry Glossary](programs/P00-foundation/BF-0009-glossary.md) | standard | Founder | Approved | P00-000 |
+| BF-0010 | [Canonical Rules](programs/P00-foundation/BF-0010-canonical-rules.md) | policy | Founder | Approved | P00-000 |
+| P01-000 | [Program Charter — Enterprise Architecture](programs/P01-enterprise-architecture/P01-000-program-charter.md) | strategy | Founder | Approved | PROG-INDEX |
+| EA-0001 | [Enterprise Architecture](programs/P01-enterprise-architecture/EA-0001-enterprise-architecture.md) | strategy | Founder | Approved | P01-000 |
+| EA-0002 | [Context Diagram](programs/P01-enterprise-architecture/EA-0002-context-diagram.md) | specification | Founder | Approved | EA-0001 |
+| EA-0003 | [Capability Map](programs/P01-enterprise-architecture/EA-0003-capability-map.md) | strategy | Founder | Approved | EA-0001 |
+| EA-0004 | [Domain Model](programs/P01-enterprise-architecture/EA-0004-domain-model.md) | specification | Founder | Approved | EA-0001 |
+| EA-0005 | [Layer Architecture](programs/P01-enterprise-architecture/EA-0005-layer-architecture.md) | specification | Founder | Approved | EA-0001 |
+| EA-0006 | [Component Architecture](programs/P01-enterprise-architecture/EA-0006-component-architecture.md) | specification | Founder | Approved | EA-0001 |
+| EA-0007 | [Integration](programs/P01-enterprise-architecture/EA-0007-integration.md) | specification | Founder | Approved | EA-0001 |
+| EA-0008 | [Event Model](programs/P01-enterprise-architecture/EA-0008-event-model.md) | specification | Founder | Approved | EA-0001 |
+| EA-0009 | [Data Flow](programs/P01-enterprise-architecture/EA-0009-data-flow.md) | specification | Founder | Approved | EA-0001 |
+| EA-0010 | [Dependency Map](programs/P01-enterprise-architecture/EA-0010-dependency-map.md) | register | Founder | Approved | EA-0001 |
+| EA-0011 | [Technology Principles](programs/P01-enterprise-architecture/EA-0011-technology-principles.md) | standard | Founder | Approved | EA-0001 |
+| EA-0012 | [Architecture Principles](programs/P01-enterprise-architecture/EA-0012-architecture-principles.md) | standard | Founder | Approved | EA-0001 |
 
-> Registry lengkap per Hardening Phase 4+7 (Batch H4): 56 dokumen terdaftar.
+> Registry lengkap per Batch 01 (P01 Enterprise Architecture): **83 dokumen terdaftar**
+> (56 canonical/migration + RFC-002 + 26 dokumen layer `programs/`).
 
 ## 3. Aturan manifest
 
-1. Setiap file `.md` baru di `canonical/` wajib terdaftar di §2 pada commit yang sama.
+1. Setiap file `.md` baru di `canonical/` dan `programs/` wajib terdaftar di §2 pada commit yang sama.
 2. Perubahan status lifecycle wajib tercermin di kolom Status.
 3. Validator ([tools/validate_docs.py](tools/validate_docs.py)) memverifikasi:
    file tanpa entri manifest = **orphan → error**; entri tanpa file = **dangling → error**.
@@ -129,3 +158,4 @@ related_docs: []
 | 3.0.0 | 2026-07-10 | Dokumen baru — Hardening Phase 1: registry penuh 45 dokumen + 15 folder |
 | 3.0.0 | 2026-07-10 | Hardening Phase 3: tools/ + CI aktif; retrofit front-matter YAML 53 dokumen |
 | 3.0.0 | 2026-07-10 | Hardening Phase 4+7: registrasi G-095/G-096/G-097; Q-994 Draft → Approved |
+| 3.1.0 | 2026-07-11 | Batch 00–01: folder `programs/` masuk registry; RFC-002 + PROG/BATCH-INDEX + P00 (charter + BF-0001..0010) + P01 (charter + EA-0001..0012) — 83 dokumen |

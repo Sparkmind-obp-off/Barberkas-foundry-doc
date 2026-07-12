@@ -1,13 +1,13 @@
 ---
 id: RFC-INDEX
 title: Request for Comments Register
-version: 3.0.0
+version: 3.1.0
 status: approved
 owner: Founder
 reviewers: [Founder]
 classification: internal
 type: index
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 next_review: 2026-10-08
 parent: F-002
 related_docs: []
@@ -17,11 +17,11 @@ related_docs: []
 | Field | Value |
 |---|---|
 | **ID** | RFC-INDEX |
-| **Version** | 3.0.0 |
+| **Version** | 3.1.0 |
 | **Status** | Approved |
 | **Owner** | Founder |
 | **Created** | 2026-07-10 |
-| **Updated** | 2026-07-10 |
+| **Updated** | 2026-07-11 |
 | **Classification** | Internal |
 | **Type** | Index |
 | **References** | [RFC-000 Template](RFC-000-template.md), [ADR-INDEX](../03-architecture/adr/ADR-INDEX.md), [G-094 Docs Governance Workflows](../09-governance/094-docs-governance-workflows.md) |
@@ -37,6 +37,7 @@ related_docs: []
 |---|---|---|---|---|---|
 | [RFC-000](RFC-000-template.md) | Template RFC | Approved (template) | Founder | — | 2026-07-10 |
 | [RFC-001](RFC-001-docs-hardening-v3.md) | Docs Hardening Program v2 → v3 | Implemented | Founder | Batch H1–H5 selesai; repo v3.0.0 | 2026-07-10 |
+| [RFC-002](RFC-002-program-batch-operating-model.md) | Program × Batch Operating Model | Accepted — implementasi berjalan (Batch 00–01) | Founder | Layer `programs/`: PROG-INDEX + BATCH-INDEX + P00 + P01 | 2026-07-11 |
 
 ## Status RFC
 
@@ -63,3 +64,4 @@ related_docs: []
 | Version | Date | Change |
 |---|---|---|
 | 3.0.0 | 2026-07-10 | Dokumen baru — Hardening Phase 2: RFC layer + register |
+| 3.1.0 | 2026-07-11 | Registrasi RFC-002 Program × Batch Operating Model |

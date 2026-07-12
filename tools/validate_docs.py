@@ -31,7 +31,7 @@ import sys
 # ---------------------------------------------------------------- konstanta
 
 SKIP_DIRS = {".git", "archive", "node_modules", ".wrangler", ".github"}
-DOC_DIRS = ("canonical", "migration")  # folder yang wajib front-matter
+DOC_DIRS = ("canonical", "migration", "programs")  # folder yang wajib front-matter
 ROOT_DOCS = ("MANIFEST.md",)           # dokumen root yang wajib front-matter
 
 REQUIRED_FIELDS = [

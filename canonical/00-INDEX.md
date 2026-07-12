@@ -1,13 +1,13 @@
 ---
 id: SSOT-00-INDEX
 title: Master Index
-version: 3.0.0
+version: 3.1.0
 status: approved
 owner: Founder
 reviewers: [Founder]
 classification: internal
 type: index
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 next_review: 2027-01-06
 parent: F-000
 related_docs: []
@@ -17,11 +17,11 @@ related_docs: []
 | Field | Value |
 |---|---|
 | **ID** | SSOT-00-INDEX |
-| **Version** | 3.0.0 |
+| **Version** | 3.1.0 |
 | **Status** | Approved |
 | **Owner** | Founder / Product |
 | **Created** | 2026-07-10 |
-| **Updated** | 2026-07-10 |
+| **Updated** | 2026-07-11 |
 | **Classification** | Internal |
 
 ## Peta dokumen
@@ -109,6 +109,7 @@ related_docs: []
 | RFC-INDEX | [RFC Register](10-rfc/RFC-INDEX.md) | Daftar seluruh usulan + statusnya |
 | RFC-000 | [Template RFC](10-rfc/RFC-000-template.md) | Format standar RFC baru |
 | RFC-001 | [Docs Hardening v3](10-rfc/RFC-001-docs-hardening-v3.md) | Payung program hardening v2 → v3 |
+| RFC-002 | [Program × Batch Operating Model](10-rfc/RFC-002-program-batch-operating-model.md) | Layer organisasi `programs/`: 21 program × batch |
 
 ### 99 — Schema (Docs-as-Code)
 | ID | Dokumen | Jawaban untuk |
@@ -119,6 +120,14 @@ related_docs: []
 | Q-993 | [Lifecycle](99-schema/993-lifecycle.md) | State machine Draft→Review→Approved→Deprecated→Archived |
 | Q-994 | [Knowledge Graph](99-schema/994-knowledge-graph.md) | Parent/child/dependency antar dokumen |
 | Q-995 | [Numbering & ID](99-schema/995-numbering.md) | Konvensi penomoran & ID permanen |
+
+### Programs — Layer organisasi Foundry (RFC-002)
+| ID | Dokumen | Jawaban untuk |
+|---|---|---|
+| PROG-INDEX | [Program Registry](../programs/PROGRAM-INDEX.md) | 21 program strategis P00–P20 + statusnya |
+| BATCH-INDEX | [Batch Roadmap](../programs/BATCH-INDEX.md) | Roadmap 15 batch × program |
+| P00-000 | [P00 Foundation](../programs/P00-foundation/P00-000-program-charter.md) | Identitas Foundry: visi, konstitusi, prinsip (BF-0001…BF-0010) |
+| P01-000 | [P01 Enterprise Architecture](../programs/P01-enterprise-architecture/P01-000-program-charter.md) | Blueprint enterprise (EA-0001…EA-0012) |
 
 ### Root
 | Dokumen | Jawaban untuk |

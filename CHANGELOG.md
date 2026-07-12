@@ -2,6 +2,57 @@
 
 Format mengikuti [Keep a Changelog](https://keepachangelog.com/) + SemVer untuk versi repo dokumentasi.
 
+## [3.1.0] — 2026-07-11 — "Program × Batch: Batch 00–01" (RFC-002)
+
+Layer organisasi Foundry `programs/` diaktifkan lewat [RFC-002 Program × Batch Operating Model](canonical/10-rfc/RFC-002-program-batch-operating-model.md): 21 program strategis (P00–P20) × 15 batch eksekusi.
+
+### Added — Batch 00 (P00 Foundation — identitas Foundry)
+- `programs/` — layer organisasi baru dengan dua index:
+  - [PROG-INDEX](programs/PROGRAM-INDEX.md) — registry 21 program strategis P00–P20.
+  - [BATCH-INDEX](programs/BATCH-INDEX.md) — roadmap 15 batch (spiral, bukan linear).
+- [RFC-002 Program × Batch Operating Model](canonical/10-rfc/RFC-002-program-batch-operating-model.md) — payung layer `programs/`.
+- `programs/P00-foundation/` — 11 dokumen identitas:
+  [P00-000 Charter](programs/P00-foundation/P00-000-program-charter.md),
+  [BF-0001 Vision](programs/P00-foundation/BF-0001-vision.md),
+  [BF-0002 Mission](programs/P00-foundation/BF-0002-mission.md),
+  [BF-0003 North Star](programs/P00-foundation/BF-0003-north-star.md),
+  [BF-0004 Constitution](programs/P00-foundation/BF-0004-constitution.md),
+  [BF-0005 Manifest](programs/P00-foundation/BF-0005-manifest.md),
+  [BF-0006 Principles](programs/P00-foundation/BF-0006-principles.md),
+  [BF-0007 Values](programs/P00-foundation/BF-0007-values.md),
+  [BF-0008 Terminology](programs/P00-foundation/BF-0008-terminology.md),
+  [BF-0009 Foundry Glossary](programs/P00-foundation/BF-0009-glossary.md),
+  [BF-0010 Canonical Rules](programs/P00-foundation/BF-0010-canonical-rules.md).
+
+### Added — Batch 01 (P01 Enterprise Architecture — blueprint sistem)
+- `programs/P01-enterprise-architecture/` — 13 dokumen blueprint:
+  [P01-000 Charter](programs/P01-enterprise-architecture/P01-000-program-charter.md),
+  [EA-0001 Enterprise Architecture](programs/P01-enterprise-architecture/EA-0001-enterprise-architecture.md),
+  [EA-0002 Context Diagram](programs/P01-enterprise-architecture/EA-0002-context-diagram.md),
+  [EA-0003 Capability Map](programs/P01-enterprise-architecture/EA-0003-capability-map.md),
+  [EA-0004 Domain Model](programs/P01-enterprise-architecture/EA-0004-domain-model.md),
+  [EA-0005 Layer Architecture](programs/P01-enterprise-architecture/EA-0005-layer-architecture.md),
+  [EA-0006 Component Architecture](programs/P01-enterprise-architecture/EA-0006-component-architecture.md),
+  [EA-0007 Integration](programs/P01-enterprise-architecture/EA-0007-integration.md),
+  [EA-0008 Event Model](programs/P01-enterprise-architecture/EA-0008-event-model.md),
+  [EA-0009 Data Flow](programs/P01-enterprise-architecture/EA-0009-data-flow.md),
+  [EA-0010 Dependency Map](programs/P01-enterprise-architecture/EA-0010-dependency-map.md),
+  [EA-0011 Technology Principles](programs/P01-enterprise-architecture/EA-0011-technology-principles.md) — TP-1..TP-7 + prosedur adopsi/pensiun teknologi,
+  [EA-0012 Architecture Principles](programs/P01-enterprise-architecture/EA-0012-architecture-principles.md) — AP-1..AP-10 + trade-off yang diputus.
+
+### Changed
+- [tools/validate_docs.py](tools/validate_docs.py) — `DOC_DIRS` diperluas: `canonical`, `migration`, **`programs`** — seluruh layer programs kini machine-validated.
+- [MANIFEST.md](MANIFEST.md) v3.1.0 — folder `programs/` + 27 entri baru (RFC-002, PROG/BATCH-INDEX, P00, P01); registry: **83 dokumen**.
+- [Q-995 Numbering](canonical/99-schema/995-numbering.md) v3.1.0 — §1.1 prefix layer `programs/`: `PROG-INDEX`/`BATCH-INDEX`, `P<nn>-`, `BF-`, `EA-`.
+- [RFC-INDEX](canonical/10-rfc/RFC-INDEX.md) v3.1.0 — registrasi RFC-002.
+- [00-INDEX](canonical/00-INDEX.md) v3.1.0 — seksi Programs (PROG-INDEX, BATCH-INDEX, P00, P01).
+- [PROG-INDEX](programs/PROGRAM-INDEX.md) v1.1.0 — P00 & P01 → **Canonical**.
+- [BATCH-INDEX](programs/BATCH-INDEX.md) v1.1.0 — Batch 00 & 01 → **Done — Canonical**; Batch 02 (P02 Governance) berikutnya.
+
+### Governance
+- Quality gate status: **PASSED** — 86 file diperiksa, 83 dokumen bermetadata & terdaftar di MANIFEST.
+- Batch 00 & 01 memenuhi definisi selesai [BATCH-INDEX §Aturan batch](programs/BATCH-INDEX.md): seluruh dokumen `approved` + terdaftar + gate PASS + release CHANGELOG ini.
+
 ## [3.0.0] — 2026-07-10 — "Hardening v3" (RFC-001)
 
 Program hardening penuh v2 → v3 dalam 5 batch (H1–H5), payung: [RFC-001](canonical/10-rfc/RFC-001-docs-hardening-v3.md).
