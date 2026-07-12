@@ -1,13 +1,13 @@
 ---
 id: Q-995
 title: Numbering & ID Convention
-version: 3.1.0
+version: 3.2.0
 status: approved
 owner: Founder
 reviewers: [Founder]
 classification: internal
 type: standard
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 next_review: 2026-10-08
 parent: Q-990
 related_docs: []
@@ -17,11 +17,11 @@ related_docs: []
 | Field | Value |
 |---|---|
 | **ID** | Q-995 |
-| **Version** | 3.1.0 |
+| **Version** | 3.2.0 |
 | **Status** | Approved |
 | **Owner** | Founder / Product |
 | **Created** | 2026-07-10 |
-| **Updated** | 2026-07-11 |
+| **Updated** | 2026-07-12 |
 | **Classification** | Internal |
 | **Type** | Standard |
 | **References** | [Q-990 Document Schema](990-document-schema.md), [Q-991 Metadata Schema](991-metadata-schema.md) |
@@ -55,7 +55,8 @@ related_docs: []
 | `programs/P<nn>-<slug>/` (charter) | `P<nn>-` | 000 (charter per program) | P01-000 Program Charter |
 | `programs/P00-foundation/` | `BF-` | 0001+ (4 digit, sekuensial) | BF-0010 Canonical Rules |
 | `programs/P01-enterprise-architecture/` | `EA-` | 0001+ (4 digit, sekuensial) | EA-0012 Architecture Principles |
-| Batch berikutnya | didaftarkan di sini **sebelum batch dimulai** ([BATCH-INDEX](../../programs/BATCH-INDEX.md)) | 0001+ | GOV-, CAN-, KG-, … |
+| `programs/P02-governance/` | `GOV-` | 0001+ (4 digit, sekuensial) | GOV-0004 Decision Model |
+| Batch berikutnya | didaftarkan di sini **sebelum batch dimulai** ([BATCH-INDEX](../../programs/BATCH-INDEX.md)) | 0001+ | CAN-, KG-, HITL-, … |
 
 ## 2. Aturan
 
@@ -80,3 +81,4 @@ related_docs: []
 |---|---|---|
 | 3.0.0 | 2026-07-10 | Dokumen baru — Hardening Phase 1: konvensi penomoran & ID permanen |
 | 3.1.0 | 2026-07-11 | §1.1 layer `programs/`: prefix PROG-/BATCH-INDEX, P<nn>-, BF-, EA- (RFC-002, Batch 00–01) |
+| 3.2.0 | 2026-07-12 | §1.1 registrasi prefix `GOV-` untuk `programs/P02-governance/` — pembukaan Batch 02 |
