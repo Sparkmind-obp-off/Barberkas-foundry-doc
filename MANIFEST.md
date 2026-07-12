@@ -139,9 +139,10 @@ related_docs: []
 | EA-0011 | [Technology Principles](programs/P01-enterprise-architecture/EA-0011-technology-principles.md) | standard | Founder | Approved | EA-0001 |
 | EA-0012 | [Architecture Principles](programs/P01-enterprise-architecture/EA-0012-architecture-principles.md) | standard | Founder | Approved | EA-0001 |
 | P02-000 | [Program Charter — Governance](programs/P02-governance/P02-000-program-charter.md) | strategy | Founder | Approved | PROG-INDEX |
+| GOV-0001 | [Governance Charter](programs/P02-governance/GOV-0001-governance-charter.md) | policy | Founder | Approved | P02-000 |
 
-> Registry per Batch 02 in-progress (P02 Governance): **84 dokumen terdaftar**
-> (56 canonical/migration + RFC-002 + 27 dokumen layer `programs/`).
+> Registry per Batch 02 in-progress (P02 Governance): **85 dokumen terdaftar**
+> (56 canonical/migration + RFC-002 + 28 dokumen layer `programs/`).
 
 ## 3. Aturan manifest
 
