@@ -1,13 +1,13 @@
 ---
 id: SSOT-MANIFEST
 title: Canonical SSOT Registry
-version: 3.1.0
+version: 3.2.0
 status: approved
 owner: Founder
 reviewers: [Founder]
 classification: internal
 type: index
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 next_review: 2027-01-06
 parent: F-000
 related_docs: []
@@ -17,11 +17,11 @@ related_docs: []
 | Field | Value |
 |---|---|
 | **ID** | SSOT-MANIFEST |
-| **Version** | 3.1.0 |
+| **Version** | 3.2.0 |
 | **Status** | Approved |
 | **Owner** | Founder / Product |
 | **Created** | 2026-07-10 |
-| **Updated** | 2026-07-11 |
+| **Updated** | 2026-07-12 |
 | **Classification** | Internal |
 | **Type** | Index |
 | **References** | [00-INDEX](canonical/00-INDEX.md), [Q-990 Document Schema](canonical/99-schema/990-document-schema.md), [Q-994 Knowledge Graph](canonical/99-schema/994-knowledge-graph.md) |
@@ -138,9 +138,10 @@ related_docs: []
 | EA-0010 | [Dependency Map](programs/P01-enterprise-architecture/EA-0010-dependency-map.md) | register | Founder | Approved | EA-0001 |
 | EA-0011 | [Technology Principles](programs/P01-enterprise-architecture/EA-0011-technology-principles.md) | standard | Founder | Approved | EA-0001 |
 | EA-0012 | [Architecture Principles](programs/P01-enterprise-architecture/EA-0012-architecture-principles.md) | standard | Founder | Approved | EA-0001 |
+| P02-000 | [Program Charter — Governance](programs/P02-governance/P02-000-program-charter.md) | strategy | Founder | Approved | PROG-INDEX |
 
-> Registry lengkap per Batch 01 (P01 Enterprise Architecture): **83 dokumen terdaftar**
-> (56 canonical/migration + RFC-002 + 26 dokumen layer `programs/`).
+> Registry per Batch 02 in-progress (P02 Governance): **84 dokumen terdaftar**
+> (56 canonical/migration + RFC-002 + 27 dokumen layer `programs/`).
 
 ## 3. Aturan manifest
 
